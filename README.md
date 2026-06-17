@@ -10,7 +10,7 @@ Supervisor: Senior Lecturer N. Zaplatynskyi
 
 ## Dubliany 2026
 
-## Project Idea:
+## Project idea:
 The project aims to create a console game based on the principle of the "Akinator" application. The user will think of any country from the available list, and the program will attempt to guess it through a series of questions. After each answer, the program will analyze the received information and gradually eliminate countries that do not match the specified conditions. As a result, the number of possible options will decrease until the program can suggest the most probable answer.
 
 ## Functionality
@@ -19,33 +19,33 @@ The program will include a main menu with the following options: "Play", "Statis
 ## Implementation
 The project will be developed in the C++ programming language using Microsoft Visual Studio. Data will be stored using structures, text files, and vectors. The files will contain information about countries, questions, statistics, and achievements. The program will utilize loops, conditional statements, functions, and file-handling features provided by the fstream library.
 
-## Work Plan
+## Work plan
 
-#### 1. Create a Repository for the Project
+#### 1. Create a repository for the project
 GitHub repository will be created to store and manage the project's development process, allowing all code changes to be tracked.
 
-#### 2. Create a README File
+#### 2. Create a README file
 README file will be prepared containing the project description and basic information about the program.
 
-#### 3. Develop the Initial Project Structure and Menu
+#### 3. Develop the initial project structure and menu
 Basic menu system will be implemented to allow users to interact with the application.
 
-#### 4. Implement Data Structures for Countries and Questions
+#### 4. Implement data structures for countries and questions
 Structures and arrays will be created to store information about countries and questions used in the game.
 
-#### 5. Implement the Core Game Logic
+#### 5. Implement the core game logic
 Algorithm for guessing countries through questions and gradual elimination of incorrect options will be developed.
 
-#### 6. Add Additional Console Functionality
+#### 6. Add additional console functionality
 Statistics, achievements, and records will be added to expand the game's functionality.
 
-#### 7. Implement Data Saving and Loading
+#### 7. Implement data saving and loading
 File handling will be configured to save and load information between program sessions. A reset function for stored data will also be developed.
 
-#### 8. Test the Final Version of the Console Application
+#### 8. Test the final version of the console application
 The program will be thoroughly tested to ensure the correct operation of all implemented features.
 
-#### 9. Finalize the Project and Prepare for Presentation
+#### 9. Finalize the project and prepare for presentation
 The project documentation and presentation materials will be completed in preparation for the final defense.
 
 ## Notes

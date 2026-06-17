@@ -1,52 +1,52 @@
-## Міністерство освіти і науки України
+## Ministry of Education and Science of Ukraine
 
-## ЛЬВІВСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ ВЕТЕРИНАРНОЇ МЕДИЦИНИ ТА БІОТЕХНОЛОГІЙ ІМЕНІ С.З. ҐЖИЦЬКОГО
+## STEPAN GZHYTSKYI NATIONAL UNIVERSITY OF VETERINARY MEDICINE AND BIOTECHNOLOGIES LVIV
 
-## Індивідуальний проєкт «Akinator Countries» з навчальної практики
+## Individual Project "Akinator Countries" for Educational Practice
 
-Виконав: студент групи КН-11 Свиридюк Іван
+Prepared by: Ivan Svyrydiuk, student of group KN-11
 
-Прийняв: ст. викладач Н. Заплатинський
+Supervisor: Senior Lecturer N. Zaplatynskyi
 
-## Дубляни 2026
+## Dubliany 2026
 
-## Ідея проєкту:
-Полягає в створенні консольної гри за принципом програми «Акінатор». Користувач буде загадувати будь-яку країну з наявного переліку, а створена програма намагатиметься її відгадати за допомогою серії запитань. Після кожної відповіді користувача програма аналізуватиме отриману інформацію та поступово буде відкидати країни, які не відповідають заданим умовам. Таким чином кількість можливих варіантів зменшується, доки програма не зможе запропонувати найбільш імовірну відповідь.
+## Project Idea:
+The project aims to create a console game based on the principle of the "Akinator" application. The user will think of any country from the available list, and the program will attempt to guess it through a series of questions. After each answer, the program will analyze the received information and gradually eliminate countries that do not match the specified conditions. As a result, the number of possible options will decrease until the program can suggest the most probable answer.
 
-## Функціонал
-Програма буде містити головне меню з пунктами «Грати», «Статистика», «Досягнення», «Список країн», «Правила гри», «Почати заново» та «Вихід». У режимі гри користувач буде загадувати країну та відповідати на запитання варіантами відповідей: «Так», «Ні», «Частково», «Я не знаю» або «Доброго вечора ми з України». На основі отриманих відповідей програма відсіюватиме невідповідні країни та через певну кількість питань намагатиметься відгадати загадану країну. У статистиці буде відображатися таблиця з двадцятьма найчастіше відгаданими країнами, а також інформація про найшвидше та найдовше відгадування. Розділ досягнень міститиме спеціальні нагороди за різні дії користувача, наприклад «Умілець» за відкриття всіх країн із списку або «Бліцкриг» за відгадування країни менш ніж за десять запитань. У правилах гри буде повністю описано принцип роботи програми та саму гру.
+## Functionality
+The program will include a main menu with the following options: "Play", "Statistics", "Achievements", "Country List", "Game Rules", "Restart", and "Exit". During gameplay, the user will think of a country and answer questions using one of the following options: "Yes", "No", "Partially", "I Don't Know", or "Good Evening, We Are from Ukraine". Based on the user's answers, the program will eliminate unsuitable countries and, after a certain number of questions, attempt to guess the selected country. The Statistics section will display a table containing the twenty most frequently guessed countries, as well as information about the fastest and longest guessing sessions. The Achievements section will contain special rewards for various user actions, such as "Master" for discovering all countries from the list or "Blitzkrieg" for having a country guessed in fewer than ten questions. The Game Rules section will provide a complete description of the game's mechanics and principles.
 
-## Реалізація
-Проєкт буде реалізований мовою програмування C++ у середовищі Visual Studio. Для зберігання даних використовуватимуться структури, текстові файли, вектори. У файлах будуть зберігатися країни, запитання, статистика та інформація про досягнення. Для роботи програми використовуватимуться цикли та умовні оператори, функції та засоби роботи з файлами бібліотеки fstream.
+## Implementation
+The project will be developed in the C++ programming language using Microsoft Visual Studio. Data will be stored using structures, text files, and vectors. The files will contain information about countries, questions, statistics, and achievements. The program will utilize loops, conditional statements, functions, and file-handling features provided by the fstream library.
 
-## Хід роботи
+## Work Plan
 
-#### 1. Створити власний репозиторій для проєкту.
-Створю репозиторій на GitHub для зберігання та контролю поточної роботи над проєктом, що дозволяє відстежувати всі зміни в коді.
+#### 1. Create a Repository for the Project
+GitHub repository will be created to store and manage the project's development process, allowing all code changes to be tracked.
 
-#### 2. Створити README до проєкту.
-Створю файл README з описом ідеї та основної інформації про свою програму.
+#### 2. Create a README File
+README file will be prepared containing the project description and basic information about the program.
 
-#### 3. Запрограмувати початкову структуру проєкту та меню.
-Реалізую базове меню, яке дозволяє користувачу взаємодіяти з програмою.
+#### 3. Develop the Initial Project Structure and Menu
+Basic menu system will be implemented to allow users to interact with the application.
 
-#### 4. Реалізувати структуру даних для збереження інформації про країни та запитання.
-Створю структури та масиви для збереження інформації про країни та запитання, які використовуються в грі.
+#### 4. Implement Data Structures for Countries and Questions
+Structures and arrays will be created to store information about countries and questions used in the game.
 
-#### 5. Реалізувати основну логіку гри.
-Розроблю алгоритм відгадування країни через запитання та поступове відсіювання хибних варіантів.
+#### 5. Implement the Core Game Logic
+Algorithm for guessing countries through questions and gradual elimination of incorrect options will be developed.
 
-#### 6. Створити додатковий функціонал консолі.
-Додам статистику, досягнення і рекорди для розширення функціоналу гри.
+#### 6. Add Additional Console Functionality
+Statistics, achievements, and records will be added to expand the game's functionality.
 
-#### 7. Реалізувати збереження та завантаження вже опрацьованих даних.
-Налаштую роботу з файлами для збереження та завантаження інформації між запусками програми та розроблю функцію їх скидання.
+#### 7. Implement Data Saving and Loading
+File handling will be configured to save and load information between program sessions. A reset function for stored data will also be developed.
 
-#### 8. Протестувати кінцеву версію консолі.
-Проведу тестування програми для перевірки коректності роботи всіх функцій.
+#### 8. Test the Final Version of the Console Application
+The program will be thoroughly tested to ensure the correct operation of all implemented features.
 
-#### 9. Оформити проєкт та підготувати до захисту.
-Завершу оформлення проєкту та підготовлю його для подальшого захисту.
+#### 9. Finalize the Project and Prepare for Presentation
+The project documentation and presentation materials will be completed in preparation for the final defense.
 
-## Нотатки
-На етапі створення проєкт матиме невелику кількість країн та запитань для перевірки алгоритму роботи, проте далі список буде розширено приблизно до ста країн та великої кількості характеристик, що дозволить підвищити точність відгадування. Усі створені зміни проєкту будуть поступово додаватися до репозиторію на GitHub окремими комітами для відображення процесу розробки.
+## Notes
+At the initial stage of development, the project will contain a limited number of countries and questions to verify the functionality of the guessing algorithm. Later, the database will be expanded to approximately one hundred countries and a large number of characteristics, improving the accuracy of the guessing process. All project updates will be gradually uploaded to the GitHub repository as separate commits to demonstrate the development process.
